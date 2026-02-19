@@ -27,7 +27,7 @@ const __this = runtime;
 const pxtrt = pxsim.pxtrt;
 let yieldSteps = 1;
 ectx.setupYield(function() { yieldSteps = 100; })
-pxsim.setTitle("乐动青春GameGo");
+pxsim.setTitle("TestGameGo");
 pxsim.setConfigData({
  "37": 160,
  "38": 120
@@ -1112,7 +1112,7 @@ switch (step) {
     r0 = s.retval;
     globals.mySprite2___28109 = (r0);
     s.tmp_0 = carnival_addLabelTo__P27621_mk(s);
-    s.tmp_0.arg0 = "欢迎来到乐动青春";
+    s.tmp_0.arg0 = "?迎来到??青春";
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 1;
     s.callLocIdx = 102; s.pc = 62; return s.tmp_0;
@@ -1187,7 +1187,7 @@ switch (step) {
   case 70:
     r0 = s.retval;
     s.tmp_0 = carnival_addLabelTo__P27621_mk(s);
-    s.tmp_0.arg0 = "按下A开始";
+    s.tmp_0.arg0 = "按下A?始";
     s.tmp_0.arg1 = 2;
     s.tmp_0.arg2 = 1;
     s.callLocIdx = 112; s.pc = 71; return s.tmp_0;
@@ -1901,7 +1901,7 @@ switch (step) {
   case 0:
 
     s.tmp_0 = game_showLongText__P26070_mk(s);
-    s.tmp_0.arg0 = "游戏开始";
+    s.tmp_0.arg0 = "游??始";
     s.tmp_0.arg1 = 3;
     s.callLocIdx = 82; s.pc = 1; return s.tmp_0;
   case 1:
