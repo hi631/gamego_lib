@@ -141,7 +141,7 @@ scene.setBackgroundImage(img`
     222222eeebbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbeee222222
     `)
 effects.confetti.startScreenEffect()
-carnival.addLabelTo("欢迎来到乐动青春", carnival.Areas.Mid, 1)
+carnival.addLabelTo("ようこそ", carnival.Areas.Mid, 1)
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . f f f f f f . . . . . 
