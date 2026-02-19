@@ -187,7 +187,7 @@ let piano = sprites.create(img`
     .cbbc.....cbbc.
     `, SpriteKind.Player)
 mySprite.setPosition(21, 91)
-piano.setPosition(96, 91)
+//piano.setPosition(96, 91)
 animation.runMovementAnimation(
 mySprite,
 animation.animationPresets(animation.easeRight),
